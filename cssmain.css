@@ -7,7 +7,7 @@ body{
     opacity: 0.85;
 }
 
-.Athletics,.Badminton, .Basketball, .Football, .Hockey,.Cricket,.TableTennis,.LawnTennis,.Squash,.WeightLifting,.Volleyball{
+.Athletics,.Badminton, .Basketball, .Football, .Hockey,.Cricket,.TableTennis,.LawnTennis,.Squash,.WeightLifting,.Volleyball, .Intro {
     position: fixed;
     font-family: Titillium Web;
     font-size: 18px;
@@ -23,7 +23,8 @@ body{
     pointer-events: none;
 }
 
-.Athletics:target,.Badminton:target,.Basketball:target, .Football:target, .Hockey:target,.Cricket:target,.TableTennis:target,.LawnTennis:target,.Squash:target,.WeightLifting:target,.Volleyball:target {
+
+.Intro:target, .Athletics:target,.Badminton:target,.Basketball:target, .Football:target, .Hockey:target,.Cricket:target,.TableTennis:target,.LawnTennis:target,.Squash:target,.WeightLifting:target,.Volleyball:target {
     opacity:1;
     pointer-events: auto;
 }
