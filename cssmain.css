@@ -1,0 +1,258 @@
+body{
+    background-color: rgb(230,230,230);
+    background-image: url("res/stadium4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    opacity: 0.85;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Titillium Web;
+    top: 300px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 53%;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: rgb(50,50,50);
+    color: #eb9a00;
+
+}
+
+
+
+.button1{
+    position: absolute;
+    left: 8%;
+    top : 35%;
+    }
+
+.button1:hover circle{
+    fill:none;
+    stroke: rgb(250,35,40);
+    stroke-width: 1.5px;
+    }
+
+.button1:hover path{
+    fill: rgb(250,35,40);
+}
+
+
+
+.button2{
+    position: absolute;
+    left: 16%;
+    top : 35%;
+    }
+.button2:hover circle{
+    fill:none;
+    stroke: rgb(250,35,40);
+    stroke-width: 1.5px;
+    }
+
+.button2:hover path{
+    fill: rgb(250,35,40);
+}
+
+.button3{
+    position: absolute;
+    left: 24%;
+    top : 35%;
+    }
+.button3:hover circle{
+    fill:none;
+    stroke: rgb(250,35,40);
+    stroke-width: 1.5px;
+    }
+
+.button3:hover path{
+    fill: rgb(250,35,40);
+}
+
+.button4{
+    position: absolute;
+    left: 32%;
+    top : 35%;
+    }
+.button4:hover circle{
+    fill:none;
+    stroke: rgb(250,35,40);
+    stroke-width: 1.5px;
+    }
+
+.button4:hover path{
+    fill: rgb(250,35,40);
+}
+.button5{
+    position: absolute;
+    left: 8%;
+    top : 55%;
+    }
+.button5:hover circle{
+    fill: rgb(250,35,40);
+    }
+
+.button5:hover path{
+    fill: rgb(250,35,40);
+}
+
+.button5:hover .outer5 {
+    fill:none;
+    stroke: rgb(250,35,40);
+    stroke-width: 1.5px;
+
+}
+.button6{
+    position: absolute;
+    left: 16%;
+    top : 55%;
+    }
+
+.button6:hover circle{
+    fill: rgb(250,35,40);
+}
+.button6:hover .outer6{
+    fill:none;
+    stroke: rgb(250,35,40);
+    stroke-width: 1.5px;
+    }
+
+.button6:hover path{
+    fill: rgb(250,35,40);
+}
+
+.button7{
+    position: absolute;
+    left: 24%;
+    top : 55%;
+    }
+.button7:hover circle{
+    fill: rgb(250,35,40);
+}
+.button7:hover .outer7{
+    fill:none;
+    stroke: rgb(250,35,40);
+    stroke-width: 1.5px;
+    }
+
+.button7:hover path{
+    fill: rgb(250,35,40);
+}
+
+.button8{
+    position: absolute;
+    left: 32%;
+    top : 55%;
+    }
+.button8:hover circle{
+    fill:none;
+    stroke: rgb(250,35,40);
+    stroke-width: 1.5px;
+    }
+
+.button8:hover path{
+    fill: rgb(250,35,40);
+}
+.button9{
+    position: absolute;
+    left: 8%;
+    top : 75%;
+    }
+
+.button9:hover circle{
+    fill: rgb(250,35,40);
+}
+.button9:hover .outer9{
+    fill:none;
+    stroke: rgb(250,35,40);
+    stroke-width: 1.5px;
+    }
+
+.button9:hover path{
+    fill: rgb(250,35,40);
+}
+
+
+
+.button10{
+    position: absolute;
+    left: 16%;
+    top : 75%;
+    }
+
+.button10:hover circle{
+    fill: rgb(250,35,40);
+}
+.button10:hover .outer10{
+    fill:none;
+    stroke: rgb(250,35,40);
+    stroke-width: 1.5px;
+    }
+
+.button10:hover path{
+    fill: rgb(250,35,40);
+}
+
+.button11{
+    position: absolute;
+    left: 24%;
+    top : 75%;
+}
+.button11:hover circle{
+    fill: rgb(250,35,40);
+}
+.button11:hover .outer11{
+    fill:none;
+    stroke: rgb(250,35,40);
+    stroke-width: 1.5px;
+    }
+
+.button11:hover path{
+    fill: rgb(250,35,40);
+}
+.button12{
+    position: absolute;
+    left: 32%;
+    top : 75%;
+    }
+.button12:hover circle{
+    fill:none;
+    stroke: rgb(250,35,40);
+    stroke-width: 1.5px;
+    }
+
+.button12:hover path{
+    fill: rgb(250,35,40);
+}
+
+
+.heading{
+    position: absolute;
+    top: -12%;
+    left: 25%;
+    font-family: "Roboto Condensed";
+    font-size: 110px;
+    font-weight: 700;
+    z-index: 9999;
+    color : rgb(250,35,40);
+
+}
